@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
-import static com.segment.analytics.internal.Utils.THREAD_PREFIX;
-import static com.segment.analytics.internal.Utils.closeQuietly;
-import static com.segment.analytics.internal.Utils.createDirectory;
-import static com.segment.analytics.internal.Utils.isConnected;
-import static com.segment.analytics.internal.Utils.toISO8601Date;
+import static com.bitedata.analytics.internal.Utils.THREAD_PREFIX;
+import static com.bitedata.analytics.internal.Utils.closeQuietly;
+import static com.bitedata.analytics.internal.Utils.createDirectory;
+import static com.bitedata.analytics.internal.Utils.isConnected;
+import static com.bitedata.analytics.internal.Utils.toISO8601Date;
 
 import android.content.Context;
 import android.os.Handler;
@@ -36,16 +36,16 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 import android.util.JsonWriter;
-import com.segment.analytics.integrations.AliasPayload;
-import com.segment.analytics.integrations.BasePayload;
-import com.segment.analytics.integrations.GroupPayload;
-import com.segment.analytics.integrations.IdentifyPayload;
-import com.segment.analytics.integrations.Integration;
-import com.segment.analytics.integrations.Logger;
-import com.segment.analytics.integrations.ScreenPayload;
-import com.segment.analytics.integrations.TrackPayload;
-import com.segment.analytics.internal.Private;
-import com.segment.analytics.internal.Utils.AnalyticsThreadFactory;
+import com.bitedata.analytics.integrations.AliasPayload;
+import com.bitedata.analytics.integrations.BasePayload;
+import com.bitedata.analytics.integrations.GroupPayload;
+import com.bitedata.analytics.integrations.IdentifyPayload;
+import com.bitedata.analytics.integrations.Integration;
+import com.bitedata.analytics.integrations.Logger;
+import com.bitedata.analytics.integrations.ScreenPayload;
+import com.bitedata.analytics.integrations.TrackPayload;
+import com.bitedata.analytics.internal.Private;
+import com.bitedata.analytics.internal.Utils.AnalyticsThreadFactory;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;

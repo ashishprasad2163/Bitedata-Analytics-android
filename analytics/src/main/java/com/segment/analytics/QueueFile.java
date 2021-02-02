@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import static java.lang.Math.min;
 
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.internal.Private;
 import java.io.Closeable;
 import java.io.EOFException;
 import java.io.File;

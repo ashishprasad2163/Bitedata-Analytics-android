@@ -21,16 +21,16 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.assertNotNull;
-import static com.segment.analytics.internal.Utils.buffer;
-import static com.segment.analytics.internal.Utils.closeQuietly;
-import static com.segment.analytics.internal.Utils.getResourceString;
-import static com.segment.analytics.internal.Utils.getSegmentSharedPreferences;
-import static com.segment.analytics.internal.Utils.hasPermission;
-import static com.segment.analytics.internal.Utils.immutableCopyOf;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.assertNotNull;
+import static com.bitedata.analytics.internal.Utils.buffer;
+import static com.bitedata.analytics.internal.Utils.closeQuietly;
+import static com.bitedata.analytics.internal.Utils.getResourceString;
+import static com.bitedata.analytics.internal.Utils.getSegmentSharedPreferences;
+import static com.bitedata.analytics.internal.Utils.hasPermission;
+import static com.bitedata.analytics.internal.Utils.immutableCopyOf;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -49,18 +49,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ProcessLifecycleOwner;
-import com.segment.analytics.integrations.AliasPayload;
-import com.segment.analytics.integrations.BasePayload;
-import com.segment.analytics.integrations.GroupPayload;
-import com.segment.analytics.integrations.IdentifyPayload;
-import com.segment.analytics.integrations.Integration;
-import com.segment.analytics.integrations.Logger;
-import com.segment.analytics.integrations.ScreenPayload;
-import com.segment.analytics.integrations.TrackPayload;
-import com.segment.analytics.internal.NanoDate;
-import com.segment.analytics.internal.Private;
-import com.segment.analytics.internal.Utils;
-import com.segment.analytics.internal.Utils.AnalyticsNetworkExecutorService;
+import com.bitedata.analytics.integrations.AliasPayload;
+import com.bitedata.analytics.integrations.BasePayload;
+import com.bitedata.analytics.integrations.GroupPayload;
+import com.bitedata.analytics.integrations.IdentifyPayload;
+import com.bitedata.analytics.integrations.Integration;
+import com.bitedata.analytics.integrations.Logger;
+import com.bitedata.analytics.integrations.ScreenPayload;
+import com.bitedata.analytics.integrations.TrackPayload;
+import com.bitedata.analytics.internal.NanoDate;
+import com.bitedata.analytics.internal.Private;
+import com.bitedata.analytics.internal.Utils;
+import com.bitedata.analytics.internal.Utils.AnalyticsNetworkExecutorService;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

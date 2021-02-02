@@ -21,16 +21,16 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics.integrations;
+package com.bitedata.analytics.integrations;
 
-import static com.segment.analytics.internal.Utils.assertNotNull;
-import static com.segment.analytics.internal.Utils.assertNotNullOrEmpty;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.assertNotNull;
+import static com.bitedata.analytics.internal.Utils.assertNotNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.segment.analytics.Properties;
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.Properties;
+import com.bitedata.analytics.internal.Private;
 import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedHashMap;

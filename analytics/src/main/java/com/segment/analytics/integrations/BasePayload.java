@@ -21,22 +21,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics.integrations;
+package com.bitedata.analytics.integrations;
 
-import static com.segment.analytics.internal.Utils.assertNotNull;
-import static com.segment.analytics.internal.Utils.assertNotNullOrEmpty;
-import static com.segment.analytics.internal.Utils.immutableCopyOf;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
-import static com.segment.analytics.internal.Utils.parseISO8601DateWithNanos;
-import static com.segment.analytics.internal.Utils.toISO8601NanoFormattedString;
-import static com.segment.analytics.internal.Utils.toISO8601String;
+import static com.bitedata.analytics.internal.Utils.assertNotNull;
+import static com.bitedata.analytics.internal.Utils.assertNotNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.immutableCopyOf;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.parseISO8601DateWithNanos;
+import static com.bitedata.analytics.internal.Utils.toISO8601NanoFormattedString;
+import static com.bitedata.analytics.internal.Utils.toISO8601String;
 
 import androidx.annotation.CheckResult;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.segment.analytics.AnalyticsContext;
-import com.segment.analytics.ValueMap;
-import com.segment.analytics.internal.NanoDate;
+import com.bitedata.analytics.AnalyticsContext;
+import com.bitedata.analytics.ValueMap;
+import com.bitedata.analytics.internal.NanoDate;
 import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedHashMap;

@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.getInputStream;
-import static com.segment.analytics.internal.Utils.readFully;
+import static com.bitedata.analytics.internal.Utils.getInputStream;
+import static com.bitedata.analytics.internal.Utils.readFully;
 import static java.net.HttpURLConnection.HTTP_OK;
 
 import android.text.TextUtils;

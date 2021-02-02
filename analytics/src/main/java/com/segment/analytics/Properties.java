@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
 
 import java.util.ArrayList;
 import java.util.Collections;

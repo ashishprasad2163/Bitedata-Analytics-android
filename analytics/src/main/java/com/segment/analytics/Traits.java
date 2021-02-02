@@ -21,15 +21,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.NullableConcurrentHashMap;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
-import static com.segment.analytics.internal.Utils.toISO8601Date;
+import static com.bitedata.analytics.internal.Utils.NullableConcurrentHashMap;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.toISO8601Date;
 import static java.util.Collections.unmodifiableMap;
 
 import android.content.Context;
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.internal.Private;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.LinkedHashMap;

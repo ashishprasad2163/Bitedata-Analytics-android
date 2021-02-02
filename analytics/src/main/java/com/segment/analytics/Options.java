@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -76,7 +76,7 @@ public class Options {
     public Options setIntegration(String integrationKey, boolean enabled) {
         if (SegmentIntegration.SEGMENT_KEY.equals(integrationKey)) {
             throw new IllegalArgumentException(
-                    "Segment integration cannot be enabled or disabled.");
+                    "Bitedata integration cannot be enabled or disabled.");
         }
         integrations.put(integrationKey, enabled);
         return this;

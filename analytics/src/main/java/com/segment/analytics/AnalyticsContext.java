@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import static android.Manifest.permission.ACCESS_NETWORK_STATE;
 import static android.content.Context.CONNECTIVITY_SERVICE;
@@ -29,13 +29,13 @@ import static android.content.Context.TELEPHONY_SERVICE;
 import static android.net.ConnectivityManager.TYPE_BLUETOOTH;
 import static android.net.ConnectivityManager.TYPE_MOBILE;
 import static android.net.ConnectivityManager.TYPE_WIFI;
-import static com.segment.analytics.internal.Utils.NullableConcurrentHashMap;
-import static com.segment.analytics.internal.Utils.createMap;
-import static com.segment.analytics.internal.Utils.getDeviceId;
-import static com.segment.analytics.internal.Utils.getSystemService;
-import static com.segment.analytics.internal.Utils.hasPermission;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
-import static com.segment.analytics.internal.Utils.isOnClassPath;
+import static com.bitedata.analytics.internal.Utils.NullableConcurrentHashMap;
+import static com.bitedata.analytics.internal.Utils.createMap;
+import static com.bitedata.analytics.internal.Utils.getDeviceId;
+import static com.bitedata.analytics.internal.Utils.getSystemService;
+import static com.bitedata.analytics.internal.Utils.hasPermission;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.isOnClassPath;
 import static java.util.Collections.unmodifiableMap;
 
 import android.annotation.SuppressLint;
@@ -49,9 +49,9 @@ import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
-import com.segment.analytics.core.BuildConfig;
-import com.segment.analytics.integrations.Logger;
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.core.BuildConfig;
+import com.bitedata.analytics.integrations.Logger;
+import com.bitedata.analytics.internal.Private;
 import java.util.LinkedHashMap;
 import java.util.Locale;
 import java.util.Map;

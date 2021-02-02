@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import com.segment.analytics.integrations.BasePayload;
+import com.bitedata.analytics.integrations.BasePayload;
 
 /** Middlewares run for every message after it is built to process it further. */
 public interface Middleware {

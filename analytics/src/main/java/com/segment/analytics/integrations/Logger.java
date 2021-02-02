@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics.integrations;
+package com.bitedata.analytics.integrations;
 
-import static com.segment.analytics.Analytics.LogLevel.DEBUG;
-import static com.segment.analytics.Analytics.LogLevel.INFO;
-import static com.segment.analytics.Analytics.LogLevel.VERBOSE;
+import static com.bitedata.analytics.Analytics.LogLevel.DEBUG;
+import static com.bitedata.analytics.Analytics.LogLevel.INFO;
+import static com.bitedata.analytics.Analytics.LogLevel.VERBOSE;
 
 import android.util.Log;
-import com.segment.analytics.Analytics.LogLevel;
+import com.bitedata.analytics.Analytics.LogLevel;
 
 /** An abstraction for logging messages. */
 public final class Logger {

@@ -21,12 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import static java.util.Collections.unmodifiableMap;
 
 import android.content.Context;
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.internal.Private;
 import java.util.Map;
 
 class ProjectSettings extends ValueMap {

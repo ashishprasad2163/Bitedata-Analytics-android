@@ -2,7 +2,6 @@
 <!--
   ~ The MIT License (MIT)
   ~
-  ~ Copyright (c) 2014 Segment, Inc.
   ~
   ~ Permission is hereby granted, free of charge, to any person obtaining a copy
   ~ of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +23,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.segment.analytics.core">
+    package="com.bitedata.analytics.core">
   <!-- Required for internet. -->
   <uses-permission android:name="android.permission.INTERNET"/>
   <application/>

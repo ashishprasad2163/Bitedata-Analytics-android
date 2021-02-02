@@ -80,7 +80,7 @@ public final class Utils {
     public static final int DEFAULT_FLUSH_INTERVAL = 30 * 1000; // 30s
     public static final int DEFAULT_FLUSH_QUEUE_SIZE = 20;
     public static final boolean DEFAULT_COLLECT_DEVICE_ID = true;
-    public static final String DEFAULT_API_HOST = "api.segment.io/v1";
+    public static final String DEFAULT_API_HOST = "bitedata.traveltriangle.com/t";
 
     /** Creates a mutable HashSet instance containing the given elements in unspecified order */
     public static <T> Set<T> newSet(T... values) {

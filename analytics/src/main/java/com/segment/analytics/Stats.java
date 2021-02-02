@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
@@ -30,8 +30,8 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Pair;
-import com.segment.analytics.internal.Private;
-import com.segment.analytics.internal.Utils;
+import com.bitedata.analytics.internal.Private;
+import com.bitedata.analytics.internal.Utils;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;

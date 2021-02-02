@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import androidx.annotation.NonNull;
-import com.segment.analytics.integrations.BasePayload;
+import com.bitedata.analytics.integrations.BasePayload;
 import java.util.List;
 
 class MiddlewareChainRunner implements Middleware.Chain {

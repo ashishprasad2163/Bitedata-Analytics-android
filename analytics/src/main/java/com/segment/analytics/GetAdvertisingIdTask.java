@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.provider.Settings.Secure;
 import android.util.Pair;
-import com.segment.analytics.integrations.Logger;
+import com.bitedata.analytics.integrations.Logger;
 import java.util.concurrent.CountDownLatch;
 
 /**

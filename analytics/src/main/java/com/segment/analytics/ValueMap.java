@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.getSegmentSharedPreferences;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.internal.Utils.getSegmentSharedPreferences;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.segment.analytics.internal.Utils;
+import com.bitedata.analytics.internal.Utils;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;

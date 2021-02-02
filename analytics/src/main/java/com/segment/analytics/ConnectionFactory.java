@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
 import android.util.Base64;
-import com.segment.analytics.core.BuildConfig;
+import com.bitedata.analytics.core.BuildConfig;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;

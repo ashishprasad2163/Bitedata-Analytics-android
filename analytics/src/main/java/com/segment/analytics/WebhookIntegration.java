@@ -21,18 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.internal.Utils.getInputStream;
-import static com.segment.analytics.internal.Utils.readFully;
+import static com.bitedata.analytics.internal.Utils.getInputStream;
+import static com.bitedata.analytics.internal.Utils.readFully;
 
 import android.util.Log;
-import com.segment.analytics.integrations.AliasPayload;
-import com.segment.analytics.integrations.GroupPayload;
-import com.segment.analytics.integrations.IdentifyPayload;
-import com.segment.analytics.integrations.Integration;
-import com.segment.analytics.integrations.ScreenPayload;
-import com.segment.analytics.integrations.TrackPayload;
+import com.bitedata.analytics.integrations.AliasPayload;
+import com.bitedata.analytics.integrations.GroupPayload;
+import com.bitedata.analytics.integrations.IdentifyPayload;
+import com.bitedata.analytics.integrations.Integration;
+import com.bitedata.analytics.integrations.ScreenPayload;
+import com.bitedata.analytics.integrations.TrackPayload;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

@@ -21,13 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics.integrations;
+package com.bitedata.analytics.integrations;
 
 import android.app.Activity;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
-import com.segment.analytics.Analytics;
-import com.segment.analytics.ValueMap;
+import com.bitedata.analytics.Analytics;
+import com.bitedata.analytics.ValueMap;
 
 /**
  * Converts Segment messages to a format a bundled integration understands, and calls those methods.

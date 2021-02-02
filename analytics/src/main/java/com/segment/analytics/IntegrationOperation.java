@@ -21,21 +21,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics;
+package com.bitedata.analytics;
 
-import static com.segment.analytics.Options.ALL_INTEGRATIONS_KEY;
-import static com.segment.analytics.internal.Utils.isNullOrEmpty;
+import static com.bitedata.analytics.Options.ALL_INTEGRATIONS_KEY;
+import static com.bitedata.analytics.internal.Utils.isNullOrEmpty;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.segment.analytics.integrations.AliasPayload;
-import com.segment.analytics.integrations.BasePayload;
-import com.segment.analytics.integrations.GroupPayload;
-import com.segment.analytics.integrations.IdentifyPayload;
-import com.segment.analytics.integrations.Integration;
-import com.segment.analytics.integrations.ScreenPayload;
-import com.segment.analytics.integrations.TrackPayload;
-import com.segment.analytics.internal.Private;
+import com.bitedata.analytics.integrations.AliasPayload;
+import com.bitedata.analytics.integrations.BasePayload;
+import com.bitedata.analytics.integrations.GroupPayload;
+import com.bitedata.analytics.integrations.IdentifyPayload;
+import com.bitedata.analytics.integrations.Integration;
+import com.bitedata.analytics.integrations.ScreenPayload;
+import com.bitedata.analytics.integrations.TrackPayload;
+import com.bitedata.analytics.internal.Private;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
