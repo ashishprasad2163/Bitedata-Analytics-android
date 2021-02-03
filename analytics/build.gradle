@@ -1,6 +1,42 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.getkeepsafe.dexcount'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+
+ext {
+    bintrayRepo = 'Bitedata-Analytics-android' // Name of the Bintray repo you created
+    bintrayName = 'com.bitedata.analytics.core' // Bintray package name
+
+    publishedGroupId = 'com.bitedata.analytics' // Group ID of the SDK which will be added in implementation line of gradle
+    artifact = 'preference' // Artifact ID of the SDK which will be added in implementation line of gradle
+    libraryVersion = '0.1.0' // Version of the library you created in Bintray
+
+    libraryName = 'android-sdk' // It is generally the module name
+    libraryDescription = 'testing sdk for bitedata analytics.' // Small description of the library
+
+    siteUrl = 'https://github.com/ashishprasad2163/Bitedata-Analytics-android'
+    gitUrl = 'https://github.com/ashishprasad2163/Bitedata-Analytics-android.git'
+
+    developerId = 'ashishprasad2163'
+    developerName = 'Ashish Prasad'
+    developerEmail = 'ashishprasad2163@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+    //Bintray Credentials
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    bintrayUsername = properties.getProperty('BINTRAY_USERNAME')
+    bintrayUserOrg = properties.getProperty('BINTRAY_ORG')
+    bintrayApiKey = properties.getProperty('BINTRAY_API_KEY')
+}
+
+apply from: 'bintray.script'
 
 apply from: rootProject.file('gradle/android.gradle')
 

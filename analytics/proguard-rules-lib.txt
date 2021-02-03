@@ -1,3 +1,3 @@
--keepclassmembers class com.segment.analytics.** extends com.segment.analytics.ValueMap {
+-keepclassmembers class com.bitedata.analytics.** extends com.bitedata.analytics.ValueMap {
   <init>(java.util.Map);
 }

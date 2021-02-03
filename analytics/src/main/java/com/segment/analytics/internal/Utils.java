@@ -1,8 +1,6 @@
 /**
  * The MIT License (MIT)
- *
- * Copyright (c) 2014 Segment.io, Inc.
- *
+*
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
@@ -21,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.segment.analytics.internal;
+package com.bitedata.analytics.internal;
 
 import static android.Manifest.permission.ACCESS_NETWORK_STATE;
 import static android.Manifest.permission.READ_PHONE_STATE;
